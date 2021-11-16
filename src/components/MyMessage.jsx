@@ -19,7 +19,7 @@ const MyMessage = ({ message }) => {
         backgroundColor: '#3B2A50',
       }}
     >
-      MyMessage
+      {message.text}
     </div>
   );
 };
